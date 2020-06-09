@@ -19,7 +19,8 @@ router.get('/', function (req, res) {
     } else if (method == 'divide') {
         result = parseInt(x) / parseInt(y);
     }
-    
+
+
     console.log(result);
     res.render('index', { title: 'Express' });
 });
